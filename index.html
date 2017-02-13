@@ -8,7 +8,9 @@
         <link rel="canonical" href="https://corky.me.uk"/>
         <style>
             @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Source+Serif+Pro');
-            body {margin: 5% auto; background: #f2f2f2; color: #444444; font-family: 'Source Serif Pro', serif; font-size: 18px; line-height: 1.6; text-shadow: 0 1px 0 #ffffff; width: 73%; max-width: 20cm; text-rendering: optimizelegibility;}
+            @media (max-width: 699px) {body {font-size: 14px;}}
+            @media (min-width: 700px) {body {font-size: 20px;}}   
+            body {margin: 5% auto; background: #f2f2f2; color: #444444; font-family: 'Source Serif Pro', serif; line-height: 1.6; width: 73%; max-width: 20cm; text-rendering: optimizeLegibility;}
             a {border-bottom: 1px solid #444444; color: #444444; text-decoration: none;}
             a:hover {border-bottom: 0;}
             h1, h2 {line-height: 1.3; font-family: 'Noto Sans', sans-serif;}
@@ -24,7 +26,7 @@
             <h1>My name is Corey Wood.</h1>
             <aside>I also go by corky or corkybeta. This should be quite a static site, but if you want to see me in my fluid form I tweet at <a href="https://twitter.com/corkybeta">@corkybeta.</a> You could also try corky [at] corky.me.uk. You can find me on <a href="http://www.geekshed.net/">Geekshed</a> in #gamahcode or #jupiterbroadcasting. Currently residing in the United Kingdom, somewhere in the Devon bit.</aside>
         </header>
-	<br>
+        <br>
         <h2><strong>I would describe myself first as a Christian, then a GNU/Linux user, then a drummer and music obsessive.</strong></h2>
         <p>I'm not very young, but I'm not very old. I read too little and I write too infrequently. I speak too quietly and I listen far too much. A perfectionist defeated by his lack of perfection often sits and watches the passage of time. I'm not even a person who can be productive without distraction, only with company of friends. Routines help not because of their regularity but only when they are simple. Ten Tors is one of my favourite activities along with other walking not because of a sense of achievement, but I enjoy doing the same thing for ten hours or more. I think I could do the same menial task for the rest of my life because repetition doesn't bore me, but I'm supposed to aim for something higher. Something with more prestige; and certainly better pay.</p>
         <p>Computers and music are the two things that interest me the most, but my half-hearted attitude tends to leave potential on the drawing board. I can read and understand many programming languages but I wouldn't consider myself a programmer because when left alone my intuition only takes me so far. I understand a lot about electronics but I couldn't manage to solder anything for myself. I can build computers, understand how the components work, connect them to networks and understand how they work, install software and understand how it works, but when thrown outside of the sandbox I don't consider myself to have much to offer. Still, if you'd like to learn anything about IT, ask me. I could talk about it for hours because I tend to be highly informed on any subject; I just can't make much for myself.</p>
@@ -38,12 +40,12 @@
         <p>Another policy I express strong support for is the reduction of copyright terms to 20-30 years after death of author or around 40 years for an entity. In the music and film industries we see monoliths who crush fair use of creative content, slow the mediums from continuing to improve over time and use customer freedom-infringing DRM to stop them enjoying music or film and sharing with others. A move to <a href="https://creativecommons.org/">Creative Commons</a>, DRM free industries would increase visibility for small artists and enabling many more talent individuals from more diverse backgrounds to rise to the top, whilst at the meantime almost certainly decreasing profits for Disney, Sony or Universal Music Group. Services such as Bandcamp, Vimeo or Soundcloud show that future as a possibility, profitable for all, whilst Spotify, Apple Music, Amazon Prime and Netflix show Digital Rights Management being used to drag monoliths into the digital age: slowing down progress as a result.</p>
         <p>I use GNU/Linux (I don't really mind calling it Linux by the way) firstly because it is free, enabling me to set up lots of computers for myself or others quickly and easily. It can be incredibly lightweight for use on a Raspberry Pi or another small SBC which I can use as self built appliances, media players or games consoles. Windows cannot do that, partly because of terrible hardware support and automatic configuration, partly because of proprietary bricks of untouched, unoptimised, multiple decade old code. GNU/Linux can be spun up in seconds on virtual environments hosted in their thousands on real hardware. Windows cannot do that.</p>
         <p>Free Software or Open Source Software is about making programming a science. Proprietary code will always die or be replaced, as its future is tied to the success of the business or how long the software is in use, whichever is shorter. When the source code is available, that code can be improved upon and become a part of millions upon millions of new projects. That is how the scientific community is meant to function, and that is how programming should function. To use proprietary software is to stand against that principle so I try to avoid nonfree software in as many ways as possible. It is rarely the more difficult option in many sectors because so many people took a stand, and other areas of computer usage and appliances will continue to be populated by open source alternatives if many people vote with their wallets.</p>
-	<br>
+        <br>
         <h2>Reason for Site Design</h2>
         <p>I must admit, I can't maintain a blog. My self motivation is minimal and I can barely keep a private, daily diary going but I would like my domain to display a single static page about me. I'm not a javascript fan but don't even have the desire to build something beautiful in Pico CMS about me. I love good typography and I think this will serve just as well. This site (forked and modified) is:</p>
         <ul>
             <li>Lightweight and loads fast;</li>
-            <li>Fits on all of your screens;</li>
+            <li>Designed to fit on all of your screens;</li>
             <li>The same in all of your awful browsers;</li>
             <li>Accessible to everyone that visits my site;</li>
             <li>Legible with nice line spacing and soft contrast;</li>
