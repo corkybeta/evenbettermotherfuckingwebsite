@@ -1,18 +1,19 @@
-Even Better Motherfucking Website
+Even Better Motherfucking Website [![Github License](https://img.shields.io/github/license/setetres/evenbettermotherfuckingwebsite.svg)](https://github.com/setetres/evenbettermotherfuckingwebsite/blob/master/LICENSE)
 =================================
 
-It's even more fucking perfect than the others motherfucking websites.
+This is an even better motherfucking website. [http://evenbettermotherfucking.website]
 
-![EBMFW](http://files.setetres.st/img/ebmfw-header.gif?v=2&raw=true)
+[![evenbettermotherfuckingwebsite](http://files.setetres.st/img/evenbettermotherfuckingwebsite-desktop.png?v=2&raw=true)](http://evenbettermotherfucking.website)
 
 License
 -------
 
-Even Better Motherfucking Website is under a [Creative Commons Attribution License].
+[CC-BY-4.0]
 
 -------
 
 A [Seventy Three] Project.
 
 [Seventy Three]: http://setetres.st
-[Creative Commons Attribution License]: http://creativecommons.org/licenses/by/4.0
+[http://evenbettermotherfucking.website]: http://evenbettermotherfucking.website
+[CC-BY-4.0]: http://creativecommons.org/licenses/by/4.0
